@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+/*Add gradient background color which is similar to hot and cold like red and blue and also make the container center align */
+body {
+    background: #C9FFBF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*Format the text and make it center align  also improve the button placement to center and make the button colorful */
+
+.container {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #C9FFBF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFAFBD, #C9FFBF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/*do it */
+.container form {
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.container form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+#inputTemperature {
+    width: 100%;
+    max-width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 15px;
+    border: none;
+}
+
+#inputTemperature::placeholder {
+    color: #828282;
+}
+
+.container form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #f11919;
+    color:#828282;
+    font-size: 18px;
+}
+
+/*Add the result text and make it center align and also make the text colorful */
+#result {
+    text-align: center;
+    color: #828282;
+    font-size: 18px;
+}
+
+.main-h {
+    text-align: center;
+    color:#828282;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.result-h {
+    text-align: center;
+    color:#828282;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 100%;
+    max-width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: #C9FFBF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFAFBD, #C9FFBF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFAFBD, #C9FFBF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #828282;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+
+.inputUnit {
+    width: 100%;
+    max-width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #828282;
+}
+
+.result {
+    width: 100%;
+    max-width: 50%;
+    padding: 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #828282;
+}
